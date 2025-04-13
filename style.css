@@ -5,7 +5,62 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 body{
       font-family: Montserrat;
+}
+nav{
+    background-color: #1C2634;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    padding: 0px 50px 0 80px;
+    align-items: center;
+}
+.navlogo{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+nav ul {
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 8px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    padding: 7px 13px;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+nav ul li a:hover,  nav ul li a.active{
+    background-color: gray;
+    
+    border-radius: 5px;
+}
+#check{
+    display: none;
+}
+.menu_btn{
+    font-size: 30px;
+    color: white;
+    display: none;
+}
+
+/* header section code start */
+
+header{
+    background-image: url('images/yuliia-dementsova-XLMoK8qYBHU-unsplash\ \(1\).jpg');
+    height: 91vh; 
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
