@@ -155,7 +155,7 @@ header{
 /* third section code started here */
 
 #third_section{
-    background-image: url('images/ambrelas.jpg');
+    background-image:linear-gradient(rgba(0, 0, 0, 0.171), rgba(0, 0, 0, 0.137)), url('images/ambrelas.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -209,4 +209,168 @@ header{
 .about-single-card h3{
     margin-bottom: 15px;
     font-size: 21px;
+}
+/* fourth section code started here */
+
+#fourth-section{
+    background-image:linear-gradient(rgba(255, 255, 255, 0.212), rgba(255, 255, 255, 0.048)), url('images/third-section.jpg');
+    padding: 100px 0;
+    color: white;
+}
+#advice-parent{
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.advice-image-box img{
+    width: 300px;
+}
+.single-advice p{
+    margin: 20px 0;
+    line-height: 1.5;
+    text-align: justify;
+}
+.advice-image-box{
+    
+}
+.single-advice h4{
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 22px;
+}
+.advice-icon{
+    
+    display: flex;
+    justify-content: space-around;
+
+}
+.advice-icon a{
+    color:black;
+    background-color: white;
+    padding: 10px 25px;
+    border-radius: 40px;
+    transition: 0.5s;
+    font-weight: bold;
+}
+.advice-icon a:hover{
+    background-color: rgb(202, 184, 160);
+}
+.single-advice h3{
+    margin-bottom: 10px ;
+    font-size: 25px;
+    border-bottom: 2px solid rgb(25, 190, 219);
+    padding-bottom: 20px;
+}
+.single-advice a{
+    background-color: white;
+    padding: 8px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+/* contact section code start */
+#contact-section{
+    background-image:linear-gradient(#37255c75, rgba(44, 6, 56, 0.233)), url('images/pexels-padrinan-255379.jpg') ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+form{
+    background-color: #2e357a;
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 50px 60px;
+    border: 6px solid #4497d3;
+    border-radius: 10px;
+    color: white;
+}
+form h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 0.1em;
+}
+form p{
+    text-align: center;
+    margin: 30px auto;
+    letter-spacing: 0.1em;
+}
+form .inputtextmail{
+    display: block;
+    width: 100%;
+    border: none;
+    height: 40px;
+    margin: 50px 0;
+    background: none;
+    outline: none;
+    text-transform: capitalize;
+    color: white;
+    border-bottom: 3px solid #4497d3;
+    font-size: 18px;
+}
+form input::placeholder{
+    color: #4497d3;
+    font-weight: bold;
+}
+.submit-btn{
+    display: block;
+    margin: 0 auto;
+    padding: 5px 40px;
+    font-size: 20px;
+    background: none;
+    color: white;
+    outline-style: ridge;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.submit-btn:hover{
+    background-color: #1d146b;
+}
+
+/* sixth section code started here */
+#sixth-section{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.082), rgba(0, 0, 0, 0.068)), url(images/fish.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 100px 0;
+}
+.match-parent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 45px;
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+.single-match{
+    padding: 20px;
+    border: 4px solid #041046;
+}
+.single-match i{
+    padding: 0px 20px 10px 20px;
+    font-size: 40px;
+
+}
+.single-match h5{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.single-match p{
+    font-size: 15px;
+    color: rgb(181, 180, 184);
+}
+.single-match:nth-child(2){
+    border-color: white;
+}
+.firat-single-match{
+    line-height: 1.5;
+    letter-spacing: 0.1em;
 }

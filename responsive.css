@@ -77,8 +77,48 @@
         grid-template-columns: repeat(1, 1fr);
         column-gap: 20px;
     }
+    /* fourth section code started here */
+
+    #advice-parent{
+        display: block;
+        width: 95%;
+        margin: auto;
+    }
+    .single-advice{
+        margin: 30px auto;
+    }
+    .advice-image-box img{
+        width: 95%;
+        margin: auto;
+    }
+    #fourth-section{
+        padding: 60px 0;
+    }
+
+    /* contact section code started */
+
+    form{
+        max-width: 90%;
+        margin: 0 auto;
+        padding: 20px 30px;
+    }
+
+    
+/* sixth section code started here */
+
+#sixth-section{
+    padding: 60px 0;
+}
+.match-parent{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 45px;
+    margin-left: 20px;
+    margin-right: 20px;
 
 }
+}
+
 @media only screen and (min-width:689px) and (max-width:1099px) {
     .services_parent{
         display: grid;
@@ -118,4 +158,42 @@
         grid-template-columns: repeat(2, 1fr);
         column-gap: 20px;
     }
+    /* fourth section code started here */
+
+    #advice-parent{
+        display: flex;
+        width: 85%;
+        margin: auto;
+    }
+    .single-advice{
+        margin: 30px auto;
+    }
+    .advice-image-box img{
+        width: 95%;
+        margin: auto;
+    }
+    #fourth-section{
+        padding: 80px 0;
+    }
+
+    form{
+        max-width: 70%;
+        margin: 0 auto;
+        padding: 30px 50px;
+    }
+
+    /* sixth section code started here */
+
+#sixth-section{
+    padding: 80px 0;
+}
+.match-parent{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 35px;
+    margin-left: 80px;
+    margin-right: 80px;
+
+}
+       
 }
