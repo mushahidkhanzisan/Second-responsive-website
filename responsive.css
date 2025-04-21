@@ -81,7 +81,7 @@
 
     #advice-parent{
         display: block;
-        width: 95%;
+        width: 88%;
         margin: auto;
     }
     .single-advice{
@@ -116,6 +116,47 @@
     margin-left: 20px;
     margin-right: 20px;
 
+}
+
+
+/* seventh section code started here */
+
+#takecareContainer{
+    width: 95%;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+#takecaresecionparent{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    
+}
+.takecaretittle {
+    margin-bottom: 30px;
+}
+
+/* footer section code started here */
+footer{
+    
+    padding: 60px 0 60px;
+
+}
+#footer-parent-div{
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.single-footer{
+    margin-bottom: 30px;
+}
+.sigle-footer-3 ul{
+    display: flex;
+    justify-content: space-around;
+    max-width: 40%;
+    margin: 0px auto;
+    
 }
 }
 
@@ -195,5 +236,37 @@
     margin-right: 80px;
 
 }
-       
+
+
+/* seventh section code started here */
+
+#takecareContainer{
+    width: 85%;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+#takecaresecionparent{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    
+}
+.takecaretittle {
+    margin-bottom: 40px;
+}
+
+
+/* footer section code started here */
+footer{
+    
+    padding: 80px 0 60px;
+
+}
+#footer-parent-div{
+    
+    width: 85%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+     
 }

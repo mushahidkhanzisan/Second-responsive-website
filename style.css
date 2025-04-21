@@ -374,3 +374,78 @@ form input::placeholder{
     line-height: 1.5;
     letter-spacing: 0.1em;
 }
+
+/* seventh section code started here */
+
+#takecareContainer{
+    width: 80%;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+#takecaresecionparent{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.takecareimage img{
+    width: 100%;
+}
+.takecaretittle h3{
+    font-size: 25px;
+}
+.takecaretittle p{
+    margin: 15px 0;
+}
+.takecaretittle ul li{
+    list-style-position: inside;
+    line-height: 1.9;
+}
+
+/* footer section code started here */
+footer{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.151), rgba(255, 255, 255, 0.082)), url(images/footer.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: white;
+    padding: 100px 0 60px;
+
+}
+#footer-parent-div{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 100px;
+    justify-content: space-between;
+}
+.single-footer h5{
+    letter-spacing: 0.3em;
+    margin-bottom: 20px;
+}
+.single-footer span{
+    color: yellow;
+}
+.sigle-footer-2 p a{
+    text-decoration: none;
+    color: white;
+    margin: 8px 0;
+    display: inline-block;
+}
+.sigle-footer-3 ul li{
+    list-style: none;
+}
+.sigle-footer-3 ul{
+    display: flex;
+    gap: 10px;
+}
+.sigle-footer-3 ul li a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    background-color: #2e357a;
+    padding: 10px;
+    border-radius: 5px;
+}
